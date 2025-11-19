@@ -177,7 +177,6 @@ char ask_choice(const char* msg, const char* choices, char default_choice);
 void init_basic_ruleset(Ruleset* ruleset);
 void init_european_ruleset(Ruleset* ruleset);
 void init_american_ruleset(Ruleset* ruleset);
-void init_UNIJACK_ruleset(Ruleset* ruleset);
 
 // Utility functions
 void to_upper(char* str);

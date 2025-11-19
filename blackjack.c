@@ -40,9 +40,9 @@ int main(void) {
     // Seed random number generator
     srand((unsigned int)time(NULL));
     
-    // Default to UNIJACK ruleset
+    // Default to American ruleset
     Ruleset ruleset;
-    init_UNIJACK_ruleset(&ruleset);
+    init_american_ruleset(&ruleset);
     
     // Default player
     Table table;
@@ -809,12 +809,6 @@ void init_american_ruleset(Ruleset* ruleset) {
     ruleset->dealer_receives_hole_card = 1;
     ruleset->dealer_reveals_blackjack_hand = 1;
     ruleset->blackjack_payout_ratio = 1.5;
-}
-
-void init_UNIJACK_ruleset(Ruleset* ruleset) {
-    init_american_ruleset(ruleset);
-    ruleset->maximum_player_count = 1;
-    ruleset->minimum_wager = 1;
 }
 
 // ============================================================================
