@@ -1,6 +1,6 @@
 # UNIJACK
 
-UNIJACK is a text-based blackjack game written in C based off of InJack.
+UNIJACK is a text-based blackjack game written in C based off of [InsightBlackjack](https://github.com/YoannAubineau/InsightBlackjack).
 
 ## Installation
 
