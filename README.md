@@ -1,6 +1,6 @@
 # UNIJACK
 
-UNIJACK is a text-based blackjack game written in C based off of InJack.
+UNIJACK is a text-based blackjack game written in C based off of [InsightBlackjack](https://github.com/YoannAubineau/InsightBlackjack).
 
 ## Installation
 
@@ -48,11 +48,6 @@ UNIJACK comes with 4 slightly differents rulesets:
 **European** ruleset is multi-player with up to 7 concurrent players. It uses 6 decks of 52 cards. Minimum bet is 10 chips and Blackjack payout ratio is 3:2. It is the most common ruleset you would encounter in casinos in Europe.
 
 **American** ruleset is multi-player with up to 7 concurrent players. It uses 8 decks of 52 cards with an auto-shuffling shoe. Minimum bet is 10 chips and Blackjack payout ratio is 3:2. It is the most common ruleset you would encounter in casinos in the USA.
-
-**UNIJACK** ruleset is a custom ruleset specifically designed for UNIJACK Coding Challenge. It plays with only one player, using 8 decks of 52 cards with an auto-shuffling shoe. Minimum bet is 1 chip and Blackjack payout ratio is 3:2.
-
-The default ruleset is **UNIJACK**. To choose a different ruleset, use the
-`--ruleset` option. For example:
 
 ```sh
 ./blackjack --ruleset american Stuey
