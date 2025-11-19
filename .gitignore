@@ -1,22 +1,6 @@
-# Python
-__pycache__
-*.pyc
-
-# Git
-*.orig
-*.rej
-
-# Vim
-.*.swp
-.*.swo
-.*.swp
-
-# Emacs
-*~
-
-# distutil
-MANIFEST
-dist/*
-build/*
-*.egg-info
-
+/team_data
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.o
